@@ -42,3 +42,7 @@ show databases; -- 어떤 database들이 있는지 조회
  GRANT ALL PRIVILEGES ON menudb.* TO 'KSH'@'%';
  
  SHOW GRANTS FOR 'KSH'@'%' -- 계정에 부여된 권한 확인
+ 
+
+ CREATE DATABASE ddldb;
+ GRANT ALL PRIVILEGES ON ddldb.*TO 'KSH'@'%';
